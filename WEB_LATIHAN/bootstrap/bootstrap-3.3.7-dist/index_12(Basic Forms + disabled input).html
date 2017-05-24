@@ -1,0 +1,76 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+			My First Bootstrap Website
+		</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link href="css/styles.css" rel="stylesheet"> 
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/
+		➥3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/
+		➥1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h1>Basic Input Forms</h1>
+				</div>
+			</div>
+			<br>
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label for="nameField" class="col-xs-2">Name</label>
+					<div class="col-xs-10">
+						<input type="text" class="form-control" id="nameField"
+						placeholder="Your Name" />
+					</div>
+				</div>
+					<div class="form-group">
+						<label for="emailField" class="col-xs-2">Email</label>
+						<div class="col-xs-10">
+							<input type="email" required="required" class="form-control" id="emailField"Exploring Bootstrap Components
+							placeholder="Your Email" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="usernameField" class="col-xs-2">Username</label>
+						<div class="col-xs-10">
+							<input type="text" class="form-control" id="phoneField"
+							placeholder="Your Username" disabled/>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="phoneField" class="col-xs-2">Phone</label>
+						<div class="col-xs-10">
+							<input type="text" class="form-control" id="phoneField"
+							placeholder="Your Phone Number" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="descField" class="col-xs-2">Description</label>
+							<div class="col-xs-10">
+							<textarea class="form-control" id="descField"
+							placeholder="Your Comments"></textarea>
+						</div>
+					</div>
+					<div class="col-xs-10 col-xs-offset-2">
+						<button type="submit" class="btn btn-primary">
+							Submit
+						</button> 
+						<button type="reset" class="btn btn-default">
+							Reset
+						</button>
+					</div>
+			</form>
+		</div>
+	</body>
+
+</html>

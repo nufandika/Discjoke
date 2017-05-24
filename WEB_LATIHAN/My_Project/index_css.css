@@ -1,0 +1,109 @@
+body {
+      position: relative;
+      max-width: 100%; 
+      background:url("A.jpg");
+      background-attachment: fixed;  
+      background-repeat: no-repeat; 
+      }
+
+  .navbar-center{
+    max-width: 1000px;
+  }
+
+  .image-logo{
+    max-width: 80%; 
+    height: auto;
+  }
+
+
+ .span-id{
+ 	color: red;
+ 	font-size: 20px;
+  }  
+  #section1 {padding-left:0px;min-height:600px;color: #000;  background-color: #fff;
+  }
+  #section2 {padding-left:0px;min-height:600px;color: #fff; background-color: #000;}
+  #section-null{padding-top:50px;min-height:600px;color: #fff; background-color: rgba(255,255,255,0);  }
+  #section3 {padding-top:50px;min-height:600px;color: #fff; background-color: 
+    #fff;}
+  #section4 {padding-top:50px;min-height:600px;color: #fff; background-color: #000;}
+  #section5 {padding-top:50px;min-height:600px;color: #fff; background-color: rgba(255,255,255,0);background:url("C.jpg");  position: relative;
+      max-width: 100%;    
+      background-attachment: fixed;   
+      background-repeat: no-repeat;} 
+  #footer {min-height:180px;color: #fff; background-color: #47ffed;} 
+ 
+  a{
+    font-family: "Lato";
+    font-size: 18px;
+  } 
+
+  .pad{
+    padding-top: 70px;
+  }
+
+  .pad2{ 
+    padding-top: 15%;
+  }
+  .phone{
+  color: #2a978c;
+  }
+  .phone:hover{
+  color: #00ffff;
+  }
+
+  .font_title1{
+    padding-top: 23px;
+    font-family: "Lato"; 
+    font-size: 70px;
+    font-weight: 200;
+  } 
+
+  .image{
+    width:700px;
+    height:450px;
+  }
+
+  .line_title{ 
+    width: 100px;
+    color: #000;
+    background-color: #000;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .font_text1{
+    padding-top: 0px;
+    font-size: 23px;
+    font-family: 
+  }
+
+
+
+
+  .font_title2{  
+    font-family:  "Lato"; 
+    font-size: 350px;  
+    text-decoration: underline; 
+  }
+
+  .font_text2{ 
+    font-size: 21px;
+    font-family: "Lato";
+    font-weight: 200;
+    text-align: justify;
+  }
+
+
+
+
+
+  .footer_text{
+    color: #000;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Lato";  
+    padding-top: 20%;  
+  }
