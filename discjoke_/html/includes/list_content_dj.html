@@ -1,0 +1,326 @@
+<div class="section-list"> 
+  <div class="container-fluid">        
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="jumbo">Channels Song List A (15)          
+          <div class="btn-group"> 
+            <div>
+              <button class="empty-button fa fa-trash-o" data-toggle="modal" data-target="#empty-modal" title="Empty List"></button>
+            </div> 
+
+            <div>
+               <form action="" method="">
+              <button class="shuffle-button fa fa-random" type="button" title="Shuffle"></button>
+            </form> 
+            </div> 
+
+            <div>
+              <button class="announ-button fa fa-bullhorn" data-toggle="modal" data-target="#announ-modal" tittle="Announcement"></button>
+            </div>
+          </div>
+        </h2>         
+      </div>           
+    </div> 
+
+    <div class="row">
+      <div class="col-lg-7"> 
+        <div class="scrollmenu">
+          <div class="song-title">
+            <h4>
+              <span class="fa fa-music"></span>
+              Bring Me The Horizon - Blasphemy
+            </h4>
+          </div>
+        </div>
+        <div id="carouselVideo" class="carousel slide" data-ride="carousel" title="Previous">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" data-src="holder.js/1100x650?auto=yes" alt="" src="{{root}}images/gray-bg.png">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
+            <span class="fa fa-step-backward" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a> 
+          <a class="carousel-control-next" href="#" role="button" data-slide="next" title="Next">
+            <span class="fa fa-step-forward" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a> 
+        </div> 
+        <form action="" method="">
+          <div class="row">          
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Contoh : https://www.youtube.com/watch?v=TLsxkxh8Ns0">
+              <span class="input-group-btn">              
+                <button class="btn btn-success" type="button" title="Add Video">
+                  +
+                </button>
+              </span>
+            </div><!-- /input-group --> 
+          </div>   
+        </form>        
+      </div>
+
+      <div class="col-md-5"> 
+        <div class="row vertical-menu"> 
+          <div class="list-group-item ng-scope active" ng-class="{active: video.playing, played: video.status}" ng-repeat="video in videos | orderBy: 'id'">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="container-image">
+                  <img class="img img-rounded img-fluid" ng-src="https://i.ytimg.com/vi/s4Tww1Bp1Ds/mqdefault.jpg" src="https://i.ytimg.com/vi/s4Tww1Bp1Ds/mqdefault.jpg" class="image">
+                  <div class="middle">
+                    <a href="#">
+                      <img class="play-button" src="{{root}}/images/play-button-1.png" alt="play-button" title="play now">
+                    </a>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-md-8">
+                <h4 class="list-group-item-heading ng-binding"> 
+                  <a href="https://www.youtube.com/watch?v=s4Tww1Bp1Ds">Bring Me The Horizon - Blasphemy
+                  </a>
+
+                  <div class="btn-group"> 
+                    <button class="option-button fa fa-ellipsis-v" data-toggle="dropdown"></button>
+                    
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <button class="dropdown-item" type="button" data-toggle="modal" data-target="#ban-modal">Ban!</button>
+                      <button class="dropdown-item" type="button" data-toggle="modal" data-target="#delete-modal">Delete</button> 
+                    </div>
+                  </div>
+
+                  <div class="yt-uix-button yt-uix-button-size-default yt-uix-button-lockup-action-menu yt-uix-button-empty yt-uix-button-has-icon no-icon-markup yt-uix-menu-trigger" type="button" onclick=";return false;" role="button" aria-pressed="false" aria-label="Action menu." aria-haspopup="true" aria-controls="aria-menu-id-13" id="kbd-nav-693054"></div>
+                </h4>          
+               
+                <small 
+                  <p>Lorem ipsum dolor sit amet, no mei ullum dictas scriptorem, ei mea graeco graecis necessitatibus. Qui et prompta admodum minimum, duo mucius nusquam elaboraret cu. Ius odio labores repudiare eu. Ne cetero timeam mei. In sed essent ullamcorper, prompta sapientem necessitatibus duo id.
+                </small> 
+              </div>
+            </div>
+          </div> 
+
+          <div class="list-group-item ng-scope" ng-class="{active: video.playing, played: video.status}" ng-repeat="video in videos | orderBy: 'id'">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="container-image">
+                  <img class="img-rounded img-fluid" ng-src="https://i.ytimg.com/vi/s4Tww1Bp1Ds/mqdefault.jpg" src="https://i.ytimg.com/vi/s4Tww1Bp1Ds/mqdefault.jpg" class="image">
+                  <div class="middle">
+                    <a href="#">
+                      <img class="play-button" src="{{root}}/images/play-button-1.png" alt="play-button" title="play now">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <h4 class="list-group-item-heading ng-binding"> 
+                  <a href="https://www.youtube.com/watch?v=s4Tww1Bp1Ds">Bring Me The Horizon - Blasphemy
+                  </a>
+
+                  <div class="btn-group"> 
+                    <button class="option-button fa fa-ellipsis-v" data-toggle="dropdown"></button>
+                    
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <button class="dropdown-item" type="button" data-toggle="modal" data-target="#ban-modal">Ban!</button>
+                      <button class="dropdown-item" type="button" data-toggle="modal" data-target="#delete-modal">Delete</button> 
+                    </div>
+                  </div>
+
+                </h4>
+                  <small> 
+                    <p>Lorem ipsum dolor sit amet, no mei ullum dictas scriptorem, ei mea graeco graecis necessitatibus. Qui et prompta admodum minimum, duo mucius nusquam elaboraret cu. Ius odio labores repudiare eu. Ne cetero timeam mei. In sed essent ullamcorper, prompta sapientem necessitatibus duo id.
+                  </small> 
+              </div>
+            </div>
+          </div> 
+
+          <div class="list-group-item ng-scope" ng-class="{active: video.playing, played: video.status}" ng-repeat="video in videos | orderBy: 'id'">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="container-image">
+                  <img class="img-rounded img-fluid" ng-src="https://i.ytimg.com/vi/s4Tww1Bp1Ds/mqdefault.jpg" src="https://i.ytimg.com/vi/s4Tww1Bp1Ds/mqdefault.jpg" class="image">
+                  <div class="middle">
+                    <a href="#">
+                      <img class="play-button" src="{{root}}/images/play-button-1.png" alt="play-button" title="play now">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <h4 class="list-group-item-heading ng-binding"> 
+                  <a href="https://www.youtube.com/watch?v=s4Tww1Bp1Ds">Bring Me The Horizon - Blasphemy
+                  </a>
+
+                  <div class="btn-group"> 
+                    <button class="option-button fa fa-ellipsis-v" data-toggle="dropdown"></button>
+                    
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <button class="dropdown-item" type="button" data-toggle="modal" data-target="#ban-modal">Ban!</button>
+                      <button class="dropdown-item" type="button" data-toggle="modal" data-target="#delete-modal">Delete</button> 
+                    </div>
+                  </div>
+
+                </h4>
+                  <small> 
+                    <p>Lorem ipsum dolor sit amet, no mei ullum dictas scriptorem, ei mea graeco graecis necessitatibus. Qui et prompta admodum minimum, duo mucius nusquam elaboraret cu. Ius odio labores repudiare eu. Ne cetero timeam mei. In sed essent ullamcorper, prompta sapientem necessitatibus duo id.
+                  </small> 
+              </div>
+            </div>
+          </div> 
+
+          <div class="list-group-item ng-scope" ng-class="{active: video.playing, played: video.status}" ng-repeat="video in videos | orderBy: 'id'">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="container-image">
+                  <img class="img-rounded img-fluid" ng-src="https://i.ytimg.com/vi/s4Tww1Bp1Ds/mqdefault.jpg" src="https://i.ytimg.com/vi/s4Tww1Bp1Ds/mqdefault.jpg" class="image">
+                  <div class="middle">
+                    <a href="#">
+                      <img class="play-button" src="{{root}}/images/play-button-1.png" alt="play-button" title="play now">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <h4 class="list-group-item-heading ng-binding"> 
+                  <a href="https://www.youtube.com/watch?v=s4Tww1Bp1Ds">Bring Me The Horizon - Blasphemy
+                  </a>
+
+                  <div class="btn-group"> 
+                    <button class="option-button fa fa-ellipsis-v" data-toggle="dropdown"></button>
+                    
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <button class="dropdown-item" type="button" data-toggle="modal" data-target="#ban-modal">Ban!</button>
+                      <button class="dropdown-item" type="button" data-toggle="modal" data-target="#delete-modal">Delete</button> 
+                    </div>
+                  </div>
+
+                </h4>
+                  <small> 
+                    <p>Lorem ipsum dolor sit amet, no mei ullum dictas scriptorem, ei mea graeco graecis necessitatibus. Qui et prompta admodum minimum, duo mucius nusquam elaboraret cu. Ius odio labores repudiare eu. Ne cetero timeam mei. In sed essent ullamcorper, prompta sapientem necessitatibus duo id.
+                  </small> 
+              </div>
+            </div>
+          </div> 
+        </div>      
+      </div>
+
+
+      <!-- Modal Ban-->         
+      <div class="container alert-modal">
+        <div class="modal fade" id="ban-modal" tabindex="-1" role="dialog" aria-labelledby="BanModalTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title">Ban!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div> 
+                <div class="modal-body">             
+                  <div class="form-group text-center">
+                    <label>Are you sure?</label> 
+                  </div>                   
+                  <hr>    
+                </div>
+                <div class="modal-footer ban">
+                  <form>
+                    <input name="ban" class="btn btn-danger " type="submit" value="Ok"> 
+                  </form>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Delete-->         
+      <div class="container alert-modal">
+        <div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="BanModalTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title">Delete!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div> 
+                <div class="modal-body">             
+                  <div class="form-group text-center">
+                    <label>Are you sure?</label> 
+                  </div>                   
+                  <hr>    
+                </div>
+                <div class="modal-footer ban">
+                  <form>
+                    <input name="delete" class="btn btn-danger " type="submit" value="Ok"> 
+                  </form>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Empty-->         
+      <div class="container alert-modal">
+        <div class="modal fade" id="empty-modal" tabindex="-1" role="dialog" aria-labelledby="BanModalTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title">Empty List!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div> 
+                <div class="modal-body">             
+                  <div class="form-group text-center">
+                    <label>Are you sure?</label> 
+                  </div>                   
+                  <hr>    
+                </div>
+                <div class="modal-footer ban">
+                  <form>
+                    <input name="delete" class="btn btn-danger " type="submit" value="Ok"> 
+                  </form>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- Modal Announcement -->
+      <div class="container">
+        <div class="modal fade" id="announ-modal" tabindex="-1" role="dialog" aria-labelledby="AnnouncementModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Edit Announcement (...) Channel</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div> 
+              <form action="#"  method="">
+                <div class="modal-body">             
+                  <div class="form-group">
+                    <label for="InputName">Message : </label>
+                      <textarea class="form-control" id="Textarea" rows="4">Your current message</textarea>
+                  </div>
+                  <hr>    
+                </div>
+                <div class="modal-footer">
+                  <form>
+                    <input name="submit" class="btn btn-primary " type="submit" value="Update"> 
+                  </form>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <!-- End of Modal -->
+
+    </div>  
+  </div> 
+</div>

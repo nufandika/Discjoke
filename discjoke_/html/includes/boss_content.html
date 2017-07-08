@@ -1,0 +1,133 @@
+<div class="section-boss">
+	<div class="container">
+		<div class="row"> 
+	    <div class="col-md-3">           
+	    </div> 
+	    <div class="col-md-6"> 	       
+       	<div class="col-md-12">	       	
+       		<h1>New Channel</h1>
+       	</div> 
+       	<div class="row">
+       		<div class="col-md-12">
+       			<form action="#"  method="">
+						  <div class="form-group">
+						    <label for="InputName">Name</label>
+						    <input type="text" class="form-control" id="InputName" aria-describedby="emailHelp" placeholder="Contoh : Asep" required="required"> 
+						  </div>
+						   <div class="form-group">
+						    <label for="InputURL">URL</label>
+						    <input type="text" class="form-control" id="InputURL" aria-describedby="emailHelp" placeholder="Contoh : dangdut" required="required"> 
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputPassword1">Password</label>
+						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contoh : rahasia" required="required">
+						  </div>
+						  <hr>
+						  <input name="submit" class="create-button " type="submit" value="Create"> 
+						</form>
+       		</div>
+	      </div> 
+	    </div>
+	    <div class="col-md-3">  
+	    </div>
+	  </div>
+	  <div class="row"> 
+	  	<div class="col-md-12">
+		  	<h1>List Channel</h1> 
+		  	<div class="scrollmenu">
+		  		<table class="table table-striped "> 						
+						<tbody>
+							<tr>
+								<th>Name</td>
+								<th>URL</td>
+								<th class="text-center">Created At</td>
+								<th></th>
+								<th></th>
+							</tr>
+							<tr>
+								<td>intern</td>
+								<td><a href="http://discjoke.herokuapp.com/intern">intern</td>
+								<td class="text-center">Jun 5, 2017</td>
+								<td>
+									<form action="" method="">												
+						      	<input name="submit" class="delete-button " type="submit" value="Delete"> 
+									</form>
+								</td>
+								<td><button class="edit-button" data-toggle="modal" data-target="#exampleModalLong">Edit</button></td>
+							</tr>
+							<tr>
+								<td>41studio</td>
+								<td><a href="http://discjoke.herokuapp.com/webdev">webdev</td>
+								<td class="text-center">Jun 5, 2017</td>
+								<td>
+									<form action="" method="">												
+						      	<input name="submit" class="delete-button " type="submit" value="Delete"> 
+									</form>
+								</td>
+								<td><button class="edit-button" data-toggle="modal" data-target="#exampleModalLong">Edit</button></td>
+							</tr>
+							<tr>
+								<td>webdev</td>
+								<td><a href="http://discjoke.herokuapp.com/webdep">webdep</td>
+								<td class="text-center">Jun 5, 2017</td>
+								<td>
+									<form action="" method="">												
+						      	<input name="submit" class="delete-button " type="submit" value="Delete"> 
+									</form>
+								</td>
+								<td><button class="edit-button" data-toggle="modal" data-target="#exampleModalLong">Edit</button></td>
+							</tr>
+						</tbody>
+					</table> 
+				</div>  
+
+					<form action="" method="">
+						<input name="submit" class="load-button " type="submit" value="Load More"> 
+					</form>
+		  </div>
+	  </div>
+
+
+	  <!-- Modal -->
+	  <div class="container">
+			<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLongTitle">Edit Channel</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div> 
+			      <form action="#"  method="">
+				      <div class="modal-body">			       
+							  <div class="form-group">
+							    <label for="InputName">Name</label>
+							    <input type="text" class="form-control" id="InputName" aria-describedby="emailHelp" placeholder="Contoh : Asep" required="required" value="Your current Name"> 
+							  </div>
+							   <div class="form-group">
+							    <label for="InputURL">URL</label>
+							    <input type="text" class="form-control" id="InputURL" aria-describedby="emailHelp" placeholder="Contoh : dangdut" required="required" value="Your current URL"> 
+							  </div>
+							  <div class="form-group">
+							    <label for="exampleInputPassword1">Password</label>
+							    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contoh : rahasia" required="required">
+							  </div>
+							  <hr> 		
+				      </div>
+				      <div class="modal-footer">
+				      	<form>
+				      		<input name="submit" class="btn btn-primary " type="submit" value="Update"> 
+				      	</form>
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+				      </div>
+			      </form>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+
+  </div>
+</div>
+

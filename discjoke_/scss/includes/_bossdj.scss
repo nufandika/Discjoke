@@ -1,0 +1,223 @@
+.section-boss {  
+	.img-item {
+		@include media-breakpoint-up(lg)  {
+			padding-top:100px;
+			padding-bottom:20px;
+		} 
+		@include media-breakpoint-down(lg){
+			padding-top:100px;
+			padding-bottom:20px;
+		}
+		@include media-breakpoint-only(md) {
+			padding-top:100px;
+			padding-bottom:20px;
+		}
+		@include media-breakpoint-down(sm) {
+			padding-top:60px;
+			padding-bottom:20px;
+		}  
+
+    .modal-header {     
+      background: #ff9933;
+    }
+
+    .modal-title{
+      font-size: 27px;
+      color: #262626;
+    }
+
+    label {
+      color: #595959;
+    }
+
+    .modal-footer {
+      background: #ffb366;
+    }
+
+
+	} 
+
+    
+	hr{
+		background-color: #a6a6a6;
+		line-height: 2px;
+	}
+
+	padding-bottom:100px;
+	h1 {
+		padding-top: 110px;
+		font-family: "Lato";
+		font-weight: 200;
+		color: #4d4d4d;
+    border-bottom: 1px #333333 solid;
+		@include media-breakpoint-up(lg) {
+			font-size:65px;
+		} 
+		@include media-breakpoint-down(lg) { 
+			font-size:55px;
+		}   
+		@include media-breakpoint-up(md) { 
+			font-size:45px;
+			font-weight: 300;
+		}
+		@include media-breakpoint-down(sm) { 
+			font-size:33px;
+			font-weight: 300;
+		}
+	}
+
+	.create-button {
+      /*max-width: 300px;
+      background-color:#1ad1ff;
+      padding-top: 5px;
+      padding-bottom: 5px; */
+
+      border: 2px solid transparent;
+      background:  #47d147;
+      color: #ffffff;
+      font-size: 16px;
+      /*line-height: 25px;*/
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.45s;
+      display: block;
+      width: 250px;
+      margin: 0 auto;
+      cursor: hand;
+      width: 100%;
+      font-size: 20px;
+
+    }
+     .create-button:hover {
+      cursor: hand;
+      background-color: #29a329; 
+  
+    }
+
+    table{
+      margin-right: 10px;
+    	a {
+    		text-decoration: none;
+    		transition:0.18s; 
+    	}
+
+    	a:hover {         
+    	}
+
+    	tr:last-child {
+    	border-bottom: 1px #bfbfbf solid;
+    	}
+
+    }
+
+		.load-button {
+      /*max-width: 300px;
+      background-color:#1ad1ff;
+      padding-top: 5px;
+      padding-bottom: 5px; */
+      margin-top: 10px;
+      border: 2px solid transparent;
+      background:  #1aa3ff;
+      color: #ffffff;
+      font-size: 16px;
+      /*line-height: 25px;*/
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.55s;
+      display: block;
+      width: 250px;
+      margin: 0 auto;
+      cursor: hand;
+      width: 100%;
+      font-size: 20px;
+
+    }
+     .load-button:hover { 
+      cursor: hand;
+      background-color: #008ae6; 
+  
+    }
+
+    .edit-button {
+      border: 2px solid transparent;
+      background:  #ffbb33;
+      color: #ffffff;
+      font-size: 16px;
+      max-width: 140px;
+      /*line-height: 25px;*/
+      padding-top: 4px;
+      padding-bottom: 4px;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.35s;
+      display: block;  
+      cursor: hand;
+      width: 100%;
+      font-size: 15px;
+    }
+
+    .edit-button:hover { 
+      cursor: hand;
+      background: #e69900;
+    }
+
+    .delete-button {
+      border: 2px solid transparent;
+      background:  #ff1a1a;
+      color: #ffffff;
+      font-size: 16px;
+      max-width: 140px;
+      /*line-height: 25px;*/
+      padding-top: 4px;
+      padding-bottom: 4px;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.35s;
+      display: block; 
+      margin: 0 auto;
+      cursor: hand;
+      width: 100%;
+      font-size: 15px;
+    }
+
+    .delete-button:hover { 
+      cursor: hand;
+      background-color: #cc0000; 
+  
+    } 
+
+    th {
+      background: #ff9933;
+      color: #262626;
+    }
+
+
+  .scrollmenu { 
+    overflow: auto;
+    white-space: nowrap; 
+      @include media-breakpoint-down(sm) { 
+        border-left: 1px #e6e6e6 solid;
+        border-right: 1px #e6e6e6 solid;
+      }
+  }
+
+  .modal-header {
+    background: #ff9933;
+  }
+
+  .modal-footer {
+    background: #ffb366;
+  }
+}

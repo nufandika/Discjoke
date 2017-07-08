@@ -1,0 +1,124 @@
+
+/****** Footer Style *********/
+footer {
+		min-height: 300px;
+		background-color: #3b3b3b;
+		color: #fff;
+		font-size: 12px;
+		border-top: 1px solid #f0f0f0;
+		padding: 150px 0px;
+		position: relative;
+		margin-top: 42px;
+}
+.footer-logo {
+		width: 130px;
+}
+.service-ty a,
+.service-ty p,
+.office-add a,
+.office-add p,
+.contact-add a,
+.contact-add p{
+		font-size: 15px;
+		font-family: "Open Sans", sans-serif;
+		color: #fff;
+		text-decoration: none;
+}
+.service-ty div,
+.office-add div,
+.service-ty a:hover {
+				color: orange;
+				text-decoration: none;
+				-webkit-transition-duration: 0.4s;
+				-moz-transition-duration: 0.4s;
+				-o-transition-duration: 0.4s;
+				transition-duration: 0.4s;
+}
+footer hr {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border: 0;
+		border-top: 2px solid #09a3d8;
+}
+.footer-copyright, .footer-copyright p, .footer-copyright a {
+		font-size: 15px;
+		font-family: "Open Sans", sans-serif;
+}
+.social-icon{
+		color: #fff;
+		cursor: pointer;
+		font-size: 16px;
+		text-decoration: none;
+		text-align: center;
+		vertical-align: middle;
+		position: relative;
+		margin: 0px 12px 10px 12px;
+}
+.social-icon:hover {
+		font-size: 20px;
+		-webkit-transition-duration: 0.4s;
+		-moz-transition-duration: 0.4s;
+		-o-transition-duration: 0.4s;
+		transition-duration: 0.4s;
+}
+.social-icon a{
+		color: #fff;
+		cursor: pointer;
+		font-size: 16px;
+		text-decoration: none;
+}
+.social-icon a:hover {
+		color: #09a3d8;
+		font-size: 18px;
+		-webkit-transition-duration: 0.4s;
+		-moz-transition-duration: 0.4s;
+		-o-transition-duration: 0.4s;
+		transition-duration: 0.4s;
+}
+
+.media-con {
+		margin-top: 10px;
+		margin-right: 20px;
+}
+
+.footer-social {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block; 
+	 & > li{
+		display: inline-block;      
+		& > a{
+			text-align: center;
+			color: white;
+			font-size: 16px;
+			line-height: 30px;
+			display: block;
+			width: 30px;
+			height: 30px;
+			margin: 5px;
+			margin-left: 0px;
+			border: 1px solid transparent;
+			border-radius: 3px;
+			transition: color 0.25s, border 0.25s;
+			&:hover{
+				color: #09a3d8;
+				border-color: #09a3d8;
+			}
+		}
+	}  
+	
+  .fa {
+		font-size: 22px;
+  }
+}
+
+img {
+ max-width: 100%;
+ display: block;
+ margin: 20px 0px;
+}
+
+.orange-hover:hover {
+ color: orange;
+}
